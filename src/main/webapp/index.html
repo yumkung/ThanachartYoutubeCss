@@ -35,8 +35,18 @@
 
         <div id="comment1">
             <div id="pa" ><h3>เหยดด...เขร้</h3>
-                <div id="view"><h2>View 0.5</h2></div>
+                <div id="comment1-containner">
+                    <div id="view"><h3>0.5</h3></div>
+                    <img id="imguser" src="https://yt3.ggpht.com/-BlA6jB9ZoWE/AAAAAAAAAAI/AAAAAAAAAAA/cXuwIZMPAdU/s88-c-k-no/photo.jpg">
+                    <input id="btnfollow" type="submit" value="ติดตาม">                
+                </div>
+             </div>
+            <div id="containner2-comment1">
+                <img id="imgadd" src="add.png"><div id="add">เพิ่มลงใน</div>
+                <img id="imgshare" src="share.png"><div id="share">เเชร์</div>
+                 <img id="like" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9iwwpMpAwnGr8317EaWGSawBJeXLK7F1otH99Gplf9pUJHY0r0i71rw">
             </div>
+           
         </div>
         <div id="comment2">
             <div id="subcomment2"><h3> Comment 2 </h3></div>
@@ -572,6 +582,77 @@
      #view{
          position: absolute;
          right: 20px;
+         top: 10px;
+         color: #666;
+     }
+     #comment1-containner{
+         background: white;
+         width: 610px;
+         height: 58px;
+         left: 15px;
+         position: absolute;
+         top: 60px;
+         border-bottom: solid #e8e8e8 1px;
+        
+     }
+     #imguser{
+         width: 48px;
+         height: 48px;
+     }
+     #pa{
+         top: -10px;
+         position: absolute;
+         left: 10px;
+     }
+     #btnfollow{
+         width: 78px;
+         height: 24px;
+         background: red;
+         color: white;
+         top: 25px;
+         position: absolute;
+         left: 60px;
+         border: red;
+     }
+     #containner2-comment1{
+         background: white;
+         width: 610px;
+         height: 34px;
+         left: 15px;
+         position: absolute;
+         top: 109px;
+     }
+     #imgadd{
+         width: 20px;
+         height: 20px;
+         top: 5px;
+         position: absolute;
+     }
+     #add{
+         color: #666;
+         top: 5px;
+         position: absolute;
+         left:23px;
+     }
+     #imgshare{
+         width: 20px;
+         height: 20px;
+         top: 5px;
+         position: absolute;
+         left: 100px;
+     }
+     #share{
+         top: 5px;
+         position: absolute;
+         left: 125px;
+         color: #666;
+     }
+     #like{
+         width: 30px;
+         height: 30px;
+         position: absolute;
+         right: 10px;
+         
      }
 </style>
 </body>
